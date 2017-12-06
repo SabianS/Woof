@@ -6,6 +6,8 @@ div.clear {
 }
 body{
 	background-color: #d9dde4;
+	margin: 0;
+	padding: 0;
 }
 div.shadow {
 	background-color: #212c41;
@@ -13,121 +15,83 @@ div.shadow {
 	padding: 20px;
 }
 div.title{
-	max-width: 800px;
-	width: 90%;
-	margin: 50px auto 0 auto;
-	padding: 10px 150px;
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+	padding: .2%;
 	transition: background-color 2s ease;
+}
+div.title h1{
+	font-family: 'EB Garamond', serif;
+	color:#99a3b7;
+	text-align: center;
+	font-size: 50px;
 }
 div.title:hover{
 	background-color: #12151a;
 }
-div.title h1{
-	color:#99a3b7;
-	text-align: center;
-	font-size: 50px;
-	font-family: 'EB Garamond', serif;
-}
-img{
-	width: 40%;
-	position: absolute;
-	top: 89%;
-	left: 25%;
-	transform: translate(-50%, -50%);
-}
-div.about {
-	width: 45%;
-	margin: 50px auto 0 auto;
-	padding: 50px 150px;
-	position: absolute;
-	top: 40%;
-	left: 48%;
-	padding-left: 30px;
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-right: 15px;
+div.about{
+	float: right;
+	width: 48%;
+	margin-top: 10%;
+	margin-right: 5%;
 	transition: background-color 2s ease;
+}
+div.about-text-wrap{
+	font-family: 'EB Garamond', serif;
+	color:#99a3b7;
+	font-size: 30px;
+}
+img.dogo1{
+	float: left;
+	width: 40%;
+	margin-left: 2%;
+	margin-top: 3%;
 }
 div.about:hover{
 	background-color: #12151a;
 }
-div.about h2{
-	color:#99a3b7;
-	font-size: 50px;
-	font-family: 'EB Garamond', serif;
+div.character{
+	width:90%;
+	margin-top: 4%;
+	margin-left: 5%;
+	transition: background-color 2s ease;
 }
-div.about p{
+div.character-text-wrap{
+	float: right;
+	width: 48%;
+	margin-right: 3%;
+	font-family: 'EB Garamond', serif;
 	color:#99a3b7;
 	font-size: 30px;
-	font-family: 'EB Garamond', serif;
 }
-div.character{
-	max-width: 1050px;
-	width: 90%;
-	margin: 60px auto 0 auto;
-	padding: 25px 150px;
-	margin-top: 65%;
-	padding-right: 30px;
-	margin-bottom: 120px;
-	padding-bottom: 20px;
-	transition: background-color 2s ease;
+div.character img{
+	float: left;
+	margin-left: 5%;
+	width: 40%;
 }
 div.character:hover{
 	background-color: #12151a;
 }
-div.character h2{
-	color:#99a3b7;
-	font-size: 50px;
-	text-align: left;
-	font-family: 'EB Garamond', serif;
-}
-div.character ul{
-	color:#99a3b7;
-	font-size: 30px;
-	text-align: left;
-	font-family: 'EB Garamond', serif;
-}
-div.character-text-wrap {
-	float: right;
-	width: 55%;
-	text-align: left;
-	padding: 0;
-	padding-top: 0;
-}
-img.dogo{
-	width: 38%;
-	position: absolute;
-	top: 199.8%;
-	left: 32.3%;
-}
 div.fun-facts{
-	width: 45%;
+	width:48%;
+	margin-left: 5%;
 	float: left;
-	margin-bottom: 20px;
-	padding-right: 30px;
-	margin-left: 9%;
-	padding-top: 0;
+	margin-top: 8%;
 	transition: background-color 2s ease;
 }
-div.fun-facts:hover{
-	background-color: #12151a
-}
-div.fun-facts h2{
-	color:#99a3b7;
-	font-size: 50px;
-	text-align: left;
+div.fun-text-wrap{
+	
 	font-family: 'EB Garamond', serif;
-	padding: 0;
-}
-div.fun-facts ul{
 	color:#99a3b7;
 	font-size: 30px;
-	text-align: left;
-	font-family: 'EB Garamond', serif;
 }
 img.dogo3{
-	width: 60%;
 	float: right;
-	margin-top: 115%;
-	margin-left: 45%
+	width: 54%;
+	margin-top: -30%;
 }
+div.fun-facts:hover{
+	background-color: #12151a;
+}
+
